@@ -1,0 +1,71 @@
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+/* ========================= HEADER */
+#topHeader {
+  background-color: #c8e1d9;
+}
+.navbar {
+  margin-bottom: 0 !important;
+}
+.navbar-text {
+  margin: 0 !important;
+}
+.navbar-toggle {
+  margin: 10px 0 !important;
+}
+.icon-bar {
+  background-color: black;
+}
+
+/* ========================= HOMEPAGE */
+
+/* ========================= FOOTER */
+footer {
+  background-color: #f4ddd2;
+}
+.footerbox {
+  padding: 30px 0;
+}
+.social-media-links {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 0 !important;
+}
+.social-media-links li {
+  padding-right: 5px;
+}
+.subscribe {
+  border: 3px solid #c8e1d9;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+#email {
+  background-color: transparent;
+  padding: 0.6rem 0.75rem;
+  font-size: 90%;
+  line-height: 1.5;
+  border: none;
+  width: 93%;
+}
+#sub {
+  position: relative;
+  margin-top: -2px;
+  background-color: transparent;
+}
+#sub:hover {
+  color: aqua;
+}
+#sub:focus {
+  outline: none;
+}
+#copyright {
+  font-size: 70%;
+}
